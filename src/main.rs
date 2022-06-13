@@ -12,7 +12,7 @@ fn main() {loop {
     println!("  {}진법 -> {}진법", radix1, radix2);
     println!("  기존 숫자: {}", input_str);
 
-    let result = 진법_변환(input_str, radix1, radix2, debug_flag);
+    let result = 진법_변환(input_str, radix1, radix2);
     
     println!("  바뀐 숫자: {}", result);
     println!("\n------------------\n")
